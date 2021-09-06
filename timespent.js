@@ -1,8 +1,9 @@
-const doSomething = () => console.log('test')
+const doSomething = () => console.log("test");
 const measureDoingSomething = () => {
-  console.time('doSomething()')
+  console.time("doSomething()");
   //do something, and measure the time it takes
-  doSomething()
-  console.timeEnd('doSomething()')
-}
-measureDoingSomething()
+  doSomething();
+  console.timeEnd("doSomething()");
+};
+measureDoingSomething();
+//
