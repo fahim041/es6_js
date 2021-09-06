@@ -6,4 +6,3 @@ const measureDoingSomething = () => {
   console.timeEnd("doSomething()");
 };
 measureDoingSomething();
-//
